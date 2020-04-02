@@ -23,7 +23,7 @@ if (isset($_POST)) {
         <input type="submit" value="Se connecter">
     </form>
     <?php if (isset($_SESSION)) {
-    echo "<button onclick='".$login.disconnect()."' ></button>";
+    echo "<button onclick='".$login.disconnect()."' >Se déconnecter</button>";
     } ?>
 </body>
 </html>
